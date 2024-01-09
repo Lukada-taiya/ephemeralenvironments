@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+<div class="second-nav">
+    <div class="container" id="breadcrumbs">
+        <div id="tool-tip">
+            <span style="cursor:pointer;color:#878787">Features</span>
+            <div class="tool-tip">
+                <ul>
+                    <li><a href="/features/collaboration">Collaboration</a></li>
+                    <hr />
+                    <li><a href="/features/security">Security</a></li>
+                    <hr />
+                    <li><a href="/features/testing">Testing</a></li>
+                    <hr />
+                    <li><a href="/features/dev-workflow">Dev Workflow</a></li>
+                    <hr />
+                    <li><a href="/features/cost-control">Cost Control</a></li>
+                    <hr />
+                    <li><a href="/features/on-demand">On Demand</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" id="article">
+      <h1>{{.Title}}</h1>
+    <p align="center"><img src="{{ .Params.hero }}" alt="{{ .Params.title }}" /></p>
+
+
+
+    {{ .Content }}
+    {{ partial "footer.html" . }}

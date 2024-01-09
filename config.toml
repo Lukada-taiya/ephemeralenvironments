@@ -1,0 +1,24 @@
+baseurl = "https://www.ephemeralenvironments.io"
+languageCode = "en-us"
+title = "EphemeralEnvironments.io"
+theme = "hugo-theme-ephemeralenvironments"
+
+[taxonomies]
+  feature = "features"
+
+[params]
+  description = "EphemeralEnvironments.io"
+  ogimage = "/images/ephemeralenvironments-preview.png"
+  copyright = "Shipyard Build, Inc."
+  edit_link = "https://github.com/ephemeralenvironments/ephemeralenvironments/edit/master/docs/"
+  search = true
+  contributor ="Shipyard"
+  contributorurl = "https://www.shipyard.build"
+  image = "/images/ephemeral-logo.png"
+
+
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
